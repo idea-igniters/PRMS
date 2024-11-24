@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Two Column Flexbox Layout</title>
+<style>
+  /* Main flex container */
+  .container {
+    display: flex;
+    gap: 20px; /* Space between columns */
+  }
+
+  /* Columns */
+  .column1, .column2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Individual div styling */
+  .box {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+
+  /* Adjust the spacing or style of specific boxes */
+  .column1 .box {
+    margin-bottom: 15px; /* Only affects the divs in column1 */
+  }
+
+  .column2 .box:first-child {
+    margin-bottom: 30px; /* Larger gap between the first and second div in column2 */
+    background-color: #e0e0ff; /* Different background for first div in column2 */
+  }
+
+  /* Further customization for individual divs using specific classes */
+  .highlighted {
+    background-color: #d0ffd0;
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <!-- First Column with 1 Div -->
+  <div class="column1">
+    <div class="box">Column 1, Div 1</div>
+  </div>
+
+  <!-- Second Column with 2 Divs -->
+  <div class="column2">
+    <div class="box highlighted">Column 2, Div 1</div>
+    <div class="box">Column 2, Div 2</div>
+  </div>
+</div>
+
+</body>
+</html>
+
+<div class="container">
+  <!-- First Column with 1 Div -->
+  <div class="column1">
+    <div class="box">Column 1, Div 1</div>
+    <div class="box">Column 1, Div 1</div>
+  </div>
+
+  <!-- Second Column with 2 Divs -->
+  <div class="column2">
+    <div class="box">Column 2, Div 1</div>
+    <div class="box">Column 2, Div 2</div>
+  </div>
+</div>
+
+</body>
+</html>

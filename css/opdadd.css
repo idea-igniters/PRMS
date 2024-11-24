@@ -1,0 +1,62 @@
+.infocontent1 .div2 .opd-body .history{
+  width: 51%;
+  float: left;
+  margin-top: 10px;
+ 
+  
+}
+.infocontent1 .div2 .opd-body .vital{
+  border: 3px solid rgb(221, 221, 221);
+  float: right;
+  width: 48%;
+  border-right: none;
+  margin-top: 10px;
+  border-radius: 6px;
+  height: 320px;
+  
+}
+
+.infocontent1 .div2 .opd-body .vital h5{
+  color: #4CAF50;
+}
+.infocontent1 .div2 .opd-body .history .ill{
+  border: 3px solid rgb(221, 221, 221);
+  margin-bottom: 10px;
+  border-left: none;
+  border-radius: 6px;
+  height: 320px;
+}
+.infocontent1 .div2 .opd-body .history .ill div{
+  margin-top: 8px;
+}
+.infocontent1 .div2 .opd-body .saveopd{
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 300px;
+}
+.infocontent1 .div2 .opd-body .vital .vitaldiv1{
+  
+  width: 49%;
+  float: left;
+  min-height: 90%;
+  
+}
+.infocontent1 .div2 .opd-body .vital .vitaldiv2{
+ 
+  width: 48%;
+  float: right;
+  min-height: 90%;
+  
+}
+.infocontent1 .div2 .opd-body .vital .vitaldiv1 div{
+  width: 60%;
+  margin-left: 45px;
+  margin-bottom: 30px;
+}
+.infocontent1 .div2 .opd-body .vital .vitaldiv2 div{
+  width: 60%;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+

@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("photo/medicalclinic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  color: #2c3e50;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 18px;
+  color: #7f8c8d;
+  margin-bottom: 30px;
+}
+
+.login-options {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.login-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.staff {
+  background-color: #3498db;
+}
+
+.staff:hover {
+  background-color: #2980b9;
+}
+
+.doctor {
+  background-color: #e74c3c;
+}
+
+.doctor:hover {
+  background-color: #c0392b;
+}

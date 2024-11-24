@@ -1,0 +1,27 @@
+.infocontent1 .div2 .opd-body .history{
+  width: 51%;
+  float: left;
+  border: 3px solid rgb(221, 221, 221);
+  border-left: none;
+  border-top: none;
+  
+}
+.infocontent1 .div2 .opd-body .vital{
+  border: 3px solid rgb(221, 221, 221);
+  float: right;
+  width: 48%;
+  border-right: none;
+  border-top: none;
+}
+.infocontent1 .div2 .opd-body .history .ill{
+  margin-bottom: 20px;
+  border-bottom: 3px solid rgb(221, 221, 221);
+  
+
+}
+.infocontent1 .div2 .opd-body .history .diag{
+  margin-bottom: 20px;
+  
+
+}
+
